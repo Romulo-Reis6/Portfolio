@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfólio</title>
+</head>
+
+<body>
+
+  <header>
+    <img src="./img/profile.jpg" alt="Imagem de perfil" class="profile-image">
+    <h1>Rômulo Reis</h1>
+    <p>Desenvolvedor Web Full Stack</p>
+    <p>Me conheça melhor e entre em <a href="#contact">contato</a></p>
+  </header>
+  <main>
+    <section id="about-me">
+      <h2>Sobre</h2>
+      <p>Sou de Salinópolis - PA e sempre fui movido pela vontade de resolver problemas reais. Inicialmente, isto me levou à Engenharia Sanitária, buscando soluções para as questões de saneamento do meu estado. Porém, precisei recalcular a rota, mas não o objetivo.
+      </p>
+      <p>
+        Descobri na tecnologia a ferramenta perfeita para unir meu raciocínio lógico à criatividade. Percebi que desenvolver software é, na essência, engenharia: construir estruturas sólidas para resolver dores complexas. Hoje, dedico meus estudos à programação, buscando criar aplicações funcionais e que façam a diferença. Para isso, estou cursando Engenharia de Software no <a id="infnet" href="https://ead.infnet.edu.br/faculdade/cursos/faculdade-ead-engenharia-de-software/" target="_blank">Infnet</a>, além de buscar cohecimento prático por meio de programas como o <a id="alpha" href="https://www.alphaedtech.org.br/" target="_blank">Alpha Edtech</a>.
+      </p>
+      <p>
+        Quando não estou na frente do computador, gosto de exercer a criatividade na cozinha, onde encaro receitas como novos algoritmos, além da companhia dos meus pets, que também são ótimos companheiros para codar.
+      </p>
+    </section>
+    <section id="stack">
+      <h2>Stack</h2>
+      <ul>
+        <li>
+          <img src="./img/html.svg" alt="HTML5 icon" class="tech-icon">
+          <span>HTML5</span>
+        </li>
+        <li>
+          <img src="./img/css.svg" alt="CSS3 icon" class="tech-icon">
+          <span>CSS3</span>
+        </li>
+        <li>
+          <img src="./img/js.svg" alt="JavaScript icon" class="tech-icon">
+          <span>JavaScript</span>
+        </li>
+        <li>
+          <img src="./img/react.svg" alt="React icon" class="tech-icon">
+          <span>React.js</span>
+        </li>
+        <li>
+          <img src="./img/node.svg" alt="Node.js icon" class="tech-icon">
+          <span>Node.js</span>
+        </li>
+        <li>
+          <img src="./img/csharp.svg" alt="C# icon" class="tech-icon">
+          <span>C#</span>
+        </li>
+        <li>
+          <img src="./img/ruby.svg" alt="Ruby icon" class="tech-icon">
+          <span>Ruby</span>
+        </li>
+        <li>
+          <img src="./img/github.svg" alt="Git e GitHub icon" class="tech-icon">
+          <span>GitHub</span>
+        </li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projetos</h2>
+      <ul class="container-projects">
+        <li class="project-card"><a href="https://romulo-reis6.github.io/Paleta-Cores/" target="_blank">
+            <img src="./img/projeto1.png" alt="projeto 1">
+            <h3>Paleta de cores</h3>
+            <p>Projeto com uma paleta de cores personalizada para aplicações web.</p>
+          </a></li>
+        <li class="project-card"><a href="https://romulo-reis6.github.io/Buscador-Cep/" target="_blank">
+            <img src="./img/projeto2.png" alt="projeto 2">
+            <h3>Buscador de CEP</h3>
+            <p>Aplicação para buscar informações de CEPs utilizando API.</p>
+          </a></li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contato</h2>
+      <form action="mailto:romuloreis06@gmail.com" method="post" enctype="text/plain">
+        <div>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Enviar E-mail</button>
+      </form>
+      <div class="contact-info">
+        <img src="./img/phone.svg" alt="telefone">
+        <span>+55 (91) 98533-0772</span>
+      </div>
+      <div class="contact-info">
+        <img src="./img/email.svg" alt="email">
+        <span>romuloreis06@gmail.com</span>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <ul class="social-media">
+      <li><a href="https://www.linkedin.com/in/romulo-reis-dev/" target="_blank" aria-label="LinkedIn">
+          <img src="./img/linkedin.svg" alt="LinkedIn">
+        </a></li>
+      <li><a href="https://github.com/Romulo-Reis6" target="_blank" aria-label="GitHub">
+          <img src="./img/github.svg" alt="GitHub">
+        </a></li>
+      <li><a href="https://www.instagram.com/romuloreis6/" target="_blank" aria-label="Instagram">
+          <img src="./img/instagram.svg" alt="Instagram">
+        </a></li>
+      <li><a href="https://wa.me/5591985330772" target="_blank" aria-label="WhatsApp">
+          <img src="./img/whatsapp.png" alt="WhatsApp">
+        </a></li>
+    </ul>
+    <p>© 2025 Rômulo Reis. Todos os direitos reservados.</p>
+  </footer>
+
+</html>
